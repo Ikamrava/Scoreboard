@@ -1,0 +1,86 @@
+main,
+article {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(CursedTimerULiL.ttf);
+}
+
+.scoreboard {
+  width: 575px;
+  height: 385px;
+  background-color: #1b244a;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 70px;
+}
+
+.htext,
+.gtext {
+  color: white;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.gscore,
+.hscore {
+  width: 155px;
+  height: 120px;
+  background-color: black;
+  justify-content: center;
+  margin-top: 30px;
+  color: #f94f6d;
+  text-align: center;
+}
+
+.home,
+.huest {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-family: myFirstFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+.g-btn,
+.h-btn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 26px;
+}
+
+.plus {
+  font-family: myFirstFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #1b244a;
+  color: white;
+  height: 40px;
+  border: solid 1px rgb(207, 204, 204);
+  width: 40px;
+}
